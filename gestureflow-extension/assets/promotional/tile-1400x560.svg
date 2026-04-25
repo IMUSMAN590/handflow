@@ -1,0 +1,117 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 560" width="1400" height="560">
+  <defs>
+    <linearGradient id="accentLine" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="ctaGrad" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <radialGradient id="bgGlow2" cx="30%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </radialGradient>
+  </defs>
+  <rect width="1400" height="560" fill="#0F172A"/>
+  <rect width="1400" height="560" fill="url(#bgGlow2)"/>
+  <g transform="translate(180, 200)">
+    <ellipse cx="0" cy="10" rx="60" ry="60" fill="#0EA5E9" opacity="0.06"/>
+    <g fill="#0EA5E9">
+      <path d="M-9,-48 C-9,-54 -5,-58 0,-58 C5,-58 9,-54 9,-48 L9,-21 C9,-21 11,-23 15,-23 C19,-23 22,-19 22,-15 L22,-12 C22,-12 24,-14 28,-14 C32,-14 35,-10 35,-6 L35,8 C35,8 37,6 41,6 C45,6 48,10 48,14 L48,32 C48,48 37,58 22,58 L5,58 C-7,58 -14,50 -18,40 L-28,22 C-30,18 -28,13 -24,11 C-20,9 -16,11 -13,15 L-9,22 L-9,-48Z"/>
+    </g>
+    <g fill="none" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round" opacity="0.45">
+      <path d="M-44,-6 C-54,-6 -56,-16 -48,-22"/>
+      <path d="M-50,5 C-62,5 -65,-10 -56,-18"/>
+      <path d="M-47,18 C-64,18 -68,0 -56,-10"/>
+    </g>
+  </g>
+  <text x="180" y="310" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="42" font-weight="700" fill="#FFFFFF" letter-spacing="1">GestureFlow</text>
+  <text x="180" y="345" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#94A3B8">Control your browser</text>
+  <text x="180" y="365" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="15" fill="#94A3B8">with hand gestures</text>
+  <rect x="180" y="395" width="160" height="44" rx="22" fill="url(#ctaGrad)"/>
+  <text x="260" y="423" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Install Now</text>
+  <rect x="460" y="60" width="3" height="440" fill="url(#accentLine)" opacity="0.4"/>
+  <g transform="translate(580, 100)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="340" height="80" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <g transform="translate(40, 40)" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round">
+        <path d="M-8,-14 C-8,-17 -5,-19 -3,-19 C0,-19 2,-17 2,-14 L2,-5 C2,-5 3,-6 5,-6 C7,-6 9,-4 9,-2 L9,0 C9,0 10,-1 12,-1 C14,-1 16,1 16,4 L16,9 C16,13 12,15 8,15 L2,15 C-1,15 -3,13 -5,10 L-7,6" fill="none"/>
+      </g>
+      <text x="75" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Hand Tracking</text>
+      <text x="75" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8">MediaPipe-powered real-time detection</text>
+    </g>
+    <g transform="translate(0, 100)">
+      <rect x="0" y="0" width="340" height="80" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <g transform="translate(40, 40)" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round">
+        <path d="M-10,-10 C-10,-14 -3,-16 0,-12 C3,-16 10,-14 10,-10 C10,-5 0,3 0,3 C0,3 -10,-5 -10,-10Z"/>
+        <path d="M0,-7 L0,-2" stroke-width="1.5"/>
+        <path d="M-3,-4 L3,-4" stroke-width="1.5"/>
+      </g>
+      <text x="75" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Custom Gestures</text>
+      <text x="75" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8">Create and map your own gesture shortcuts</text>
+    </g>
+    <g transform="translate(0, 200)">
+      <rect x="0" y="0" width="340" height="80" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <g transform="translate(40, 40)" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round">
+        <circle cx="0" cy="-5" r="7"/>
+        <path d="M-12,8 C-12,1 -7,-3 0,-3 C7,-3 12,1 12,8"/>
+      </g>
+      <text x="75" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Smart Profiles</text>
+      <text x="75" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8">Site-specific gesture configurations</text>
+    </g>
+    <g transform="translate(0, 300)">
+      <rect x="0" y="0" width="340" height="80" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <g transform="translate(40, 40)" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M0,-13 L10,-7 L10,3 C10,9 5,13 0,16 C-5,13 -10,9 -10,3 L-10,-7Z"/>
+        <path d="M-4,1 L-1,5 L5,-3" stroke-width="2"/>
+      </g>
+      <text x="75" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Privacy First</text>
+      <text x="75" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8">All processing stays on your device</text>
+    </g>
+  </g>
+  <g transform="translate(980, 100)">
+    <g transform="translate(0, 0)">
+      <rect x="0" y="0" width="340" height="80" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <g transform="translate(40, 40)" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round">
+        <rect x="-10" y="-10" width="20" height="20" rx="3"/>
+        <line x1="-10" y1="-3" x2="10" y2="-3"/>
+        <line x1="-3" y1="-10" x2="-3" y2="10"/>
+      </g>
+      <text x="75" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Gesture Zones</text>
+      <text x="75" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8">Define screen regions for actions</text>
+    </g>
+    <g transform="translate(0, 100)">
+      <rect x="0" y="0" width="340" height="80" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <g transform="translate(40, 40)" fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round">
+        <polyline points="-10,8 -4,0 2,5 10,-8"/>
+        <line x1="-10" y1="-10" x2="10" y2="-10"/>
+      </g>
+      <text x="75" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Analytics</text>
+      <text x="75" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8">Track gesture usage and accuracy</text>
+    </g>
+    <g transform="translate(0, 200)">
+      <rect x="0" y="0" width="340" height="80" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <g transform="translate(40, 40)" fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round">
+        <circle cx="0" cy="0" r="10"/>
+        <path d="M0,-10 L0,-14"/>
+        <path d="M0,10 L0,14"/>
+        <path d="M-10,0 L-14,0"/>
+        <path d="M10,0 L14,0"/>
+      </g>
+      <text x="75" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">13+ Gestures</text>
+      <text x="75" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8">Swipe, pinch, fist, point &amp; more</text>
+    </g>
+    <g transform="translate(0, 300)">
+      <rect x="0" y="0" width="340" height="80" rx="10" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+      <g transform="translate(40, 40)" fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round">
+        <path d="M-8,-8 L8,-8 L8,8 L-8,8Z" rx="2"/>
+        <path d="M-4,-4 L4,-4 L4,4 L-4,4Z" fill="#10B981" opacity="0.3"/>
+        <circle cx="0" cy="0" r="2" fill="#10B981"/>
+      </g>
+      <text x="75" y="35" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="600" fill="#FFFFFF">Custom Mapping</text>
+      <text x="75" y="55" font-family="system-ui, -apple-system, sans-serif" font-size="12" fill="#94A3B8">Assign gestures to any browser action</text>
+    </g>
+  </g>
+  <rect x="0" y="552" width="1400" height="8" fill="url(#accentLine)" opacity="0.5"/>
+</svg>

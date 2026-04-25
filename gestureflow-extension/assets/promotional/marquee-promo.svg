@@ -1,0 +1,68 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 560" width="1400" height="560">
+  <defs>
+    <linearGradient id="animGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="30%" stop-color="#10B981"/>
+      <stop offset="60%" stop-color="#F97316"/>
+      <stop offset="100%" stop-color="#0EA5E9"/>
+    </linearGradient>
+    <radialGradient id="centerGlow" cx="50%" cy="45%" r="40%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="badge1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+  <rect width="1400" height="560" fill="#0F172A"/>
+  <rect width="1400" height="560" fill="url(#centerGlow)"/>
+  <ellipse cx="700" cy="230" rx="200" ry="200" fill="#0EA5E9" opacity="0.03"/>
+  <ellipse cx="700" cy="230" rx="120" ry="120" fill="#0EA5E9" opacity="0.04"/>
+  <g transform="translate(700, 200)">
+    <g fill="none" stroke="#0EA5E9" stroke-width="2" stroke-linecap="round" opacity="0.15">
+      <circle cx="0" cy="0" r="90"/>
+      <circle cx="0" cy="0" r="110"/>
+      <circle cx="0" cy="0" r="130"/>
+    </g>
+    <g fill="#0EA5E9">
+      <path d="M-12,-64 C-12,-72 -7,-76 0,-76 C7,-76 12,-72 12,-64 L12,-28 C12,-28 15,-31 20,-31 C25,-31 29,-26 29,-20 L29,-16 C29,-16 32,-19 37,-19 C42,-19 46,-14 46,-8 L46,10 C46,10 49,7 54,7 C59,7 63,12 63,18 L63,42 C63,64 49,76 29,76 L7,76 C-9,76 -19,66 -24,52 L-37,30 C-40,24 -37,18 -32,15 C-27,12 -22,14 -18,20 L-12,30 L-12,-64Z"/>
+    </g>
+    <g fill="none" stroke="#0EA5E9" stroke-width="3.5" stroke-linecap="round" opacity="0.5">
+      <path d="M-58,-8 C-70,-8 -73,-20 -63,-28"/>
+      <path d="M-65,6 C-80,6 -84,-12 -72,-22"/>
+      <path d="M-62,22 C-82,22 -87,0 -73,-12"/>
+    </g>
+    <g fill="none" stroke="#10B981" stroke-width="2.5" stroke-linecap="round" opacity="0.35">
+      <path d="M65,-5 C75,-5 78,-15 70,-20"/>
+      <path d="M72,8 C84,8 86,-5 78,-12"/>
+      <path d="M68,20 C82,20 85,5 76,-3"/>
+    </g>
+    <g fill="none" stroke="#F97316" stroke-width="2" stroke-linecap="round" opacity="0.25">
+      <path d="M-50,-30 C-58,-35 -55,-45 -45,-42"/>
+      <path d="M55,30 C63,35 60,45 50,42"/>
+    </g>
+  </g>
+  <text x="700" y="340" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="56" font-weight="700" fill="#FFFFFF" letter-spacing="2">GestureFlow</text>
+  <text x="700" y="385" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="500" fill="#0EA5E9" letter-spacing="4">Wave. Point. Control.</text>
+  <g transform="translate(440, 440)">
+    <rect x="0" y="0" width="120" height="36" rx="18" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <circle cx="22" cy="18" r="5" fill="#10B981"/>
+    <text x="68" y="23" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Free</text>
+  </g>
+  <g transform="translate(590, 440)">
+    <rect x="0" y="0" width="160" height="36" rx="18" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <g transform="translate(22, 18)" fill="none" stroke="#0EA5E9" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0,-8 L6,-5 L6,2 C6,5 3,8 0,10 C-3,8 -6,5 -6,2 L-6,-5Z"/>
+    </g>
+    <text x="90" y="23" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Privacy First</text>
+  </g>
+  <g transform="translate(780, 440)">
+    <rect x="0" y="0" width="180" height="36" rx="18" fill="#1E293B" stroke="#334155" stroke-width="1"/>
+    <g transform="translate(22, 18)" fill="none" stroke="#F97316" stroke-width="1.5" stroke-linecap="round">
+      <path d="M-5,-7 C-5,-9 -2,-10 0,-8 C2,-10 5,-9 5,-7 C5,-4 0,0 0,0 C0,0 -5,-4 -5,-7Z"/>
+    </g>
+    <text x="108" y="23" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" font-weight="600" fill="#FFFFFF">Custom Gestures</text>
+  </g>
+  <rect x="0" y="552" width="1400" height="8" fill="url(#animGrad)" opacity="0.6"/>
+</svg>

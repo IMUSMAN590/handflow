@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 280" width="440" height="280">
+  <defs>
+    <linearGradient id="bottomAccent" x1="0" y1="1" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="handGlow" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect width="440" height="280" fill="#0F172A"/>
+  <rect x="0" y="272" width="440" height="8" fill="url(#bottomAccent)"/>
+  <g transform="translate(220, 105)">
+    <ellipse cx="0" cy="20" rx="55" ry="55" fill="url(#handGlow)"/>
+    <g fill="none" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round" opacity="0.4">
+      <path d="M-50,-10 Q-65,-10 -60,-25"/>
+      <path d="M-55,0 Q-75,0 -70,-18"/>
+      <path d="M-52,12 Q-78,12 -72,-8"/>
+    </g>
+    <g fill="#0EA5E9">
+      <path d="M-8,-42 C-8,-48 -4,-52 0,-52 C4,-52 8,-48 8,-42 L8,-18 C8,-18 10,-20 14,-20 C18,-20 20,-16 20,-12 L20,-10 C20,-10 22,-12 26,-12 C30,-12 32,-8 32,-4 L32,8 C32,8 34,6 38,6 C42,6 44,10 44,14 L44,28 C44,42 34,52 20,52 L4,52 C-6,52 -12,46 -16,38 L-24,22 C-26,18 -24,14 -20,12 C-16,10 -12,12 -10,16 L-8,20 L-8,-42Z"/>
+    </g>
+    <g fill="none" stroke="#0EA5E9" stroke-width="2.5" stroke-linecap="round" opacity="0.6">
+      <path d="M-40,-5 C-48,-5 -50,-15 -44,-20"/>
+      <path d="M-44,5 C-55,5 -58,-10 -50,-18"/>
+      <path d="M-42,18 C-58,18 -62,0 -52,-10"/>
+    </g>
+  </g>
+  <text x="220" y="195" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="32" font-weight="700" fill="#FFFFFF" letter-spacing="1">GestureFlow</text>
+  <text x="220" y="222" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#94A3B8" letter-spacing="0.5">Control your browser with hand gestures</text>
+</svg>

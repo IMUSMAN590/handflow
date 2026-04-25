@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+  <defs>
+    <linearGradient id="heroBg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F172A"/>
+      <stop offset="50%" stop-color="#1E293B"/>
+      <stop offset="100%" stop-color="#0F172A"/>
+    </linearGradient>
+    <linearGradient id="ctaBtn" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <radialGradient id="handGlow3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#0EA5E9" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#0EA5E9" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1200" height="400" fill="url(#heroBg)"/>
+  <g transform="translate(250, 180)">
+    <ellipse cx="0" cy="0" rx="100" ry="100" fill="url(#handGlow3)"/>
+    <g fill="#0EA5E9" opacity="0.12">
+      <path d="M-50,-40 C-50,-55 -30,-60 -20,-50 C-10,-60 10,-55 10,-40 C10,-25 -10,0 -10,0 C-10,0 -50,-25 -50,-40Z" transform="translate(-60,-30) rotate(-20)"/>
+      <path d="M-50,-40 C-50,-55 -30,-60 -20,-50 C-10,-60 10,-55 10,-40 C10,-25 -10,0 -10,0 C-10,0 -50,-25 -50,-40Z" transform="translate(-80,10) rotate(-35)"/>
+      <path d="M-50,-40 C-50,-55 -30,-60 -20,-50 C-10,-60 10,-55 10,-40 C10,-25 -10,0 -10,0 C-10,0 -50,-25 -50,-40Z" transform="translate(-65,50) rotate(-50)"/>
+    </g>
+    <g fill="#0EA5E9" opacity="0.2">
+      <path d="M-50,-40 C-50,-55 -30,-60 -20,-50 C-10,-60 10,-55 10,-40 C10,-25 -10,0 -10,0 C-10,0 -50,-25 -50,-40Z" transform="translate(60,-20) rotate(15)"/>
+      <path d="M-50,-40 C-50,-55 -30,-60 -20,-50 C-10,-60 10,-55 10,-40 C10,-25 -10,0 -10,0 C-10,0 -50,-25 -50,-40Z" transform="translate(75,25) rotate(30)"/>
+    </g>
+    <g fill="#0EA5E9">
+      <path d="M-10,-52 C-10,-58 -6,-62 0,-62 C6,-62 10,-58 10,-52 L10,-22 C10,-22 12,-24 16,-24 C20,-24 24,-20 24,-16 L24,-13 C24,-13 26,-15 30,-15 C34,-15 38,-11 38,-7 L38,8 C38,8 40,6 44,6 C48,6 52,10 52,14 L52,34 C52,52 40,62 24,62 L6,62 C-8,62 -16,54 -20,42 L-30,24 C-33,20 -30,14 -26,12 C-22,10 -18,12 -15,16 L-10,24 L-10,-52Z"/>
+    </g>
+    <g fill="none" stroke="#0EA5E9" stroke-width="3" stroke-linecap="round" opacity="0.45">
+      <path d="M-48,-6 C-58,-6 -60,-16 -52,-22"/>
+      <path d="M-54,5 C-66,5 -68,-8 -60,-16"/>
+      <path d="M-50,18 C-66,18 -70,2 -58,-8"/>
+    </g>
+    <g fill="none" stroke="#10B981" stroke-width="2" stroke-linecap="round" opacity="0.3">
+      <path d="M55,-3 C63,-3 65,-11 58,-16"/>
+      <path d="M60,8 C70,8 72,-2 64,-8"/>
+    </g>
+  </g>
+  <text x="550" y="140" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Control Chrome</text>
+  <text x="550" y="190" font-family="system-ui, -apple-system, sans-serif" font-size="40" font-weight="700" fill="#FFFFFF" letter-spacing="0.5">Without Touching It</text>
+  <text x="550" y="230" font-family="system-ui, -apple-system, sans-serif" font-size="17" fill="#94A3B8">Use hand gestures to navigate, scroll, tab-switch, and more — all without touching your keyboard or mouse.</text>
+  <rect x="550" y="260" width="180" height="48" rx="24" fill="url(#ctaBtn)"/>
+  <text x="640" y="290" text-anchor="middle" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="600" fill="#FFFFFF">Add to Chrome</text>
+  <g transform="translate(780, 274)">
+    <text font-family="system-ui, -apple-system, sans-serif" font-size="13" fill="#64748B">Free • No account needed</text>
+  </g>
+  <rect x="0" y="392" width="1200" height="8" fill="url(#ctaBtn)" opacity="0.4"/>
+</svg>
